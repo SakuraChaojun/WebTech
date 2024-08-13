@@ -1,0 +1,91 @@
+/*init the setting */
+*{margin: 0; padding: 0}
+ul li{list-style: none;}
+a{font-size: 14px; color: #5696ff;}
+body{font-family: "Microsoft YaHei", serif;}
+/*purpose for clear the float */
+.fl{float: left;}
+.fr{float: right;}
+.clear:after{display: block;clear: both;content:"";height: 0;}
+.wrap{background-color: white;}
+/*header*/
+.header{width: 1200px; margin: auto;background-color: #ffffff}
+.logo{margin-top: 10px;}
+.nav{margin-left: 185px;}
+.nav li{font-size: 18px; color: #3c3d46; margin-right: 24px;
+        text-align: center;line-height: 72px; width: 80px;}
+.nav .hot{background-color: #5696ff;color: #fefefe}
+.login{margin-left: 360px;font-size: 18px; color: #3c3d46;
+       margin-top: -50px;line-height: 30px;text-align: center;}
+/*sub_herder*/
+.sub_header{background-color: #666666;border: 1px #dcdcdc solid;height: 60px;}
+.category{width: 1200px;margin: auto;margin-top: 19px;}
+.icon_frame{width: 58px;padding-left: 42px;
+            border-left: 1px #f3f3f1 solid;
+            border-right: 1px #f3f3f1 solid;}
+/*main_content*/
+.main{background-color: #f3f3f3;border: 1px transparent solid;}
+/*banner*/
+.banner{width: 1200px;height: 350px;margin: auto;margin-top: 55px;
+        background: url("../img/promotion/banner.jpg")no-repeat center;
+        border:1px #dcdcdc solid;}
+/*left_banner_part*/
+.left_banner{width: 229px;background-color: #5696ff;margin-top: 230px;
+             padding: 15px 19px 18px 22px;}
+.chinese{font-family: "FZYanSongS-EB-GB", serif;
+                      font-size: 45px;color:#ffffff;
+                      letter-spacing: 2px;}
+.english{font-family: "Trajan Pro 3", serif;
+                      font-size: 17px;color:#ffffff;
+                      margin-left: 12px;margin-top: 7px;
+                      letter-spacing: 2px;}
+.english .top_part{margin-bottom: 6px;}
+/*right_banner__part*/
+.right_banner{width:200px;margin-top: 27px;margin-left: 730px;}
+.right_banner .chinese{font-size: 33px;margin-left: 48px;}
+.right_banner .english{font-size: 12px;margin-left: 48px;}
+.right_banner .barcode{margin-top: 30px;margin-left: 55px;}
+.departure_box{width: 140px;background-color: #f3f3f3;
+               border: 1px #dcdcdc solid;border-radius: 4px;
+               margin-top: 45px;margin-left: 32px;}
+.departure_box p{font-size:12px; color: #333333;line-height: 30px;text-align: center;}
+.right_banner .arrow{margin-left: 84px;margin-top: 15px;}
+.searching_box{width: 140px;background-color: #f3f3f3;
+               border: 1px #5696ff solid;border-radius: 5px;
+               margin-top: 15px;margin-left: 32px;}
+.searching_box p{font-size: 14px; color: #999999;
+                 margin-left: 9px;line-height: 30px;}
+.blue_box{ width:16px; height:16px;background-color: #5696ff;
+            border: 1px #5696ff solid;
+            border-radius: 0 4px 4px 0;
+            padding: 7px 7px 7px 7px;}
+/*coupon*/
+.coupon{width: 1200px;margin: auto;margin-top: 60px;}
+/*left_details*/
+.left_details{width: 856px;margin-right: 40px;}
+.figure{margin-right: 24px;}
+.detail{margin-top:8px;font-size: 22px;color: #333333;line-height: 30px;}
+.time{font-size: 16px;color: #666666;line-height: 52px;}
+.reservation{margin-top: -4px;}
+.price{font-size: 36px;color:rgba(235,76,77,0.8);font-weight: bold;margin-left: -5px;}
+.price_small{font-size: 18px;color:rgba(235,76,77,0.8);margin-top: 20px;}
+.confirm{width: 86px;height:26px;border:1px #5696ff solid;padding: 12px 27px;}
+.confirm p{font-size: 21px;color: #5696ff;line-height: 28px;}
+.separate_line{width: 810px;height: 0;margin: 50px 0; border-top: 2px #e9e9e9 solid;}
+/*right_hotsale*/
+.right_hotsale{width: 280px;}
+.text_box{width: 69px;padding:0 105px;border: 2px #5696ff solid;}
+.text_box p{line-height: 52px;font-size: 16px;color: #282828;}
+.preview{margin-top:35px;}
+.detail_small p{width:176px; height:30px;font-size: 13px; color: #333333;}
+.detail_small .price_small{font-size: 14px;color:rgba(235,76,77,0.8);margin-top: 23px;}
+.separate_line_small{width: 280px;height: 0;margin: 19px 0; border-top: 2px #e9e9e9 solid;}
+/*page */
+.page{width: 816px;margin:auto;margin-top:28px;margin-bottom:75px;padding-right: 394px}
+.page_button{width: 88px;border: 1px #dcdcdc solid;padding: 0 55px;}
+.page_button p{font-size: 18px;color: #333333;line-height: 59px;letter-spacing: 3px;}
+.number{margin-top: 18px;margin-left: 5px;}
+.number li{font-size: 18px;color: #666666;margin-left: 30px;}
+/*footer*/
+.footer{ height:90px; background: #5696ff; padding-top: 40px; }
+.footer p{width:661px;font-size: 16px; color: #fafafc; margin: auto;line-height: 34px;}

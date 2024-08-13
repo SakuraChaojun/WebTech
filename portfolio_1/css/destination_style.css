@@ -1,0 +1,119 @@
+*{margin:0;padding: 0;}
+ul li{list-style: none;}
+a{font-size: 16px; color: #5696ff;text-decoration: none;}
+body{font-family: "Microsoft YaHei", serif;}
+/*clear the float */
+.fl{float: left;}
+.fr{float: right;}
+.clear:after{display: block;clear: both;content:"";height: 0;}
+.wrap{background-color: white;}
+/*header*/
+.header{width: 1200px; margin: auto;background-color: #ffffff}
+.logo{margin-top: 10px;}
+.nav{margin-left: 185px;}
+.nav li{font-size: 18px; color: #3c3d46; margin-right: 24px;
+        text-align: center;line-height: 72px; width: 80px;}
+.nav .hot{background-color: #5696ff;color: #fefefe}
+.login{margin-left: 360px;font-size: 18px; color: #3c3d46;
+       margin-top: -50px;line-height: 30px;text-align: center;}
+/*sub_herder*/
+.sub_header{background-color: #666666;border: 1px #dcdcdc solid;height: 60px;}
+.category{width: 1200px;margin: auto;margin-top: 19px;}
+.icon_frame{width: 58px;padding-left: 42px;
+            border-left: 1px #f3f3f1 solid;
+            border-right: 1px #f3f3f1 solid;}
+/*main_content*/
+.main{background-color: #f3f3f3;border: 1px transparent solid;}
+/*---banner---*/
+.banner{width:1200px;margin:auto;margin-top: 55px;}
+/*banner_left*/
+.banner_left{width: 970px; height: 560px;background: url("../img/destination/banner.jpg") no-repeat center;}
+.circle_button{margin: 528px 0 0 860px;}
+.circle_type1{width: 14px;height: 14px;border-radius: 50%;border:2px white solid;margin-right: 10px;}
+.circle_type2{width:16px;height: 16px;border-radius: 50%;background-color: white;margin-right: 10px;}
+/*banner_right*/
+.banner_right{height:560px;margin-left:60px;background-color: #666666;
+                border: 1px #dcdcdc solid;padding: 0 44px;}
+.banner_right p{font-size: 23px;color: #ffffff;line-height: 34px;text-align: center;}
+.banner_right .first_item{margin-top: 37px;}
+.banner_right .item{margin-top: 15px;}
+.banner_right .separateline_small{width: 70px;border: 1px rgba(220,220,220,0.5) solid;margin-top: 15px;}
+/*recommendation*/
+.recommendation{width:1200px;margin:auto;margin-top: 53px;}
+.recommendation .title{font-size: 24px;color: #333333;line-height: 34px;}
+.recommendation .exhibition{height:414px;margin-top: 26px;background-color: #ffffff;
+                            border: 1px #dcdcdc solid;
+                            box-shadow: #979797 0 0 1px 0;
+                            padding: 30px 15px;}
+/*----figure part----*/
+.figure_frame{margin-top:10px; margin-left:25px;width: 184px; height: 258px;
+                    border: 10px #ffffff solid;
+                    box-shadow: #979797 0 0 8px 0}
+.japan{background: url("../img/destination/japan_sakura.jpg") no-repeat center;}
+.germany{background: url("../img/destination/germany.jpg") no-repeat center;}
+.russia{background: url("../img/destination/baikal.jpg") no-repeat center;}
+.newzealand{background: url("../img/destination/newzealand.jpg") no-repeat center;}
+.australia{background: url("../img/destination/melbourne.jpg") no-repeat center;}
+/*figure inside text */
+.english{font-family: Arial, serif;font-size: 18px; color:#fefefe; line-height: 30px;
+                margin-top: 25px;margin-left: 11px;}
+.chinese{font-family: "RTWS YueGothic Demo", serif; font-size: 18px; color:#fefefe;line-height: 30px;
+                margin-left: 11px;}
+/*descriptions*/
+.descriptions {margin-top: 15px;margin-left:27px;}
+.descriptions p{font-size: 20px;color: #5696ff;line-height: 34px;}
+.descriptions .download{width: 200px;height: 40px;background-color: #5696ff;
+                        border: 1px #dcdcdc solid;
+                        border-radius: 4px;margin-top: 15px;}
+.download p{font-size: 18px;color: #ffffff;line-height: 34px;text-align: center;}
+/*guide part*/
+.guide{width: 1200px;margin: auto;margin-top: 55px;}
+/*left part*/
+.guide_left{font-size: 17px;color: #333333;line-height: 34px;}
+.guide .user{margin-top: 22px;}
+.user li{margin-top: 10px;}
+.user p{margin-left:10px;font-size: 16px;color: #666666;}
+.guide_left .calling{margin-top: 35px;}
+/*right part*/
+.guide_right{margin-left: 40px;}
+.guide_right .top_title{font-size: 24px;color: #333333;line-height: 34px;}
+.guide_right .sub_title{margin-top: 21px;}
+.sub_title span{font-size: 16px;color: #333333;line-height: 34px;}
+.sub_title .separateline_tiny{color: #666666;}
+.sub_title .click{font-size: 16px;color: #5696ff;line-height: 34px;}
+
+.row{margin-top: 24px;}
+.figure_frame_small{margin-right:48px;width: 166px;height: 231px;
+    border: 8px #ffffff solid;box-sizing: border-box;
+    box-shadow: #979797 0 0 4px 0}
+.last_one{margin-right: 0;}
+.figure_frame_small p{font-size: 16px;margin-left: 10px;}
+/*small figure backgrounds*/
+.opera_house{background:url("../img/destination/opera_house.jpg")no-repeat center;}
+.sentosa{background:url("../img/destination/sentosa.jpg")no-repeat center;}
+.milan{background:url("../img/destination/milan.jpg") no-repeat center;}
+.italian_place{background:url("../img/destination/italian_place.jpg") no-repeat center;}
+.bali{background: url("../img/destination/bali_indonesia.jpg")no-repeat center;}
+.hangzhou{background: url("../img/destination/hangzhou_china.jpg")no-repeat center;}
+.copenhagen{background: url("../img/destination/copenhagen.jpg")no-repeat center;}
+.phuket{background: url("../img/destination/phuket_thailand.jpg")no-repeat center;}
+.volcanic{background: url("../img/destination/volcanic.jpg")no-repeat center;}
+.windmill{background: url("../img/destination/windmill.jpg")no-repeat center;}
+.eiffel{background: url("../img/destination/eiffel.jpg")no-repeat center;}
+.pyramids{background: url("../img/destination/pyramids.jpg")no-repeat center;}
+.descriptions_small{margin-top: 10px;}
+.adjust{margin-left: 95px;}
+.adjust2{margin-left: 80px;}
+
+.descriptions_small p{font-size: 17px;color: #5696ff;line-height:30px; }
+.descriptions_small span{font-size: 16px;color: #666666;}
+/*page buttons*/
+.page{width: 1200px;margin: auto;margin-top: 80px;margin-bottom: 70px;
+    padding-left:390px;box-sizing: border-box;}
+.page_button{width: 88px;border: 1px #dcdcdc solid;padding: 0 55px;}
+.page_button p{font-size: 18px;color: #333333;line-height: 59px;letter-spacing: 3px;}
+.number_buttons{margin-top: 18px;margin-left: 25px;margin-right: 40px;}
+.number_buttons li{font-size: 18px;color: #666666;margin-left: 30px;}
+/*footer*/
+footer{height:90px; background: #5696ff; padding-top: 40px; }
+footer p{width:661px;font-size: 16px; color: #fafafc; margin: auto;line-height: 34px;}
